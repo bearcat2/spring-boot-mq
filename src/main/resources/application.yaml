@@ -1,0 +1,11 @@
+## activemq 基本配置
+spring:
+    activemq:
+        broker-url: tcp://192.168.110.62:61616
+        in-memory: false
+        pool:
+            enabled: true
+            max-connections: 15
+
+    jms:
+        pub-sub-domain: false
