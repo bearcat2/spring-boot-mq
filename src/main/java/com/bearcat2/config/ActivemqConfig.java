@@ -7,7 +7,7 @@ import org.springframework.jms.config.DefaultJmsListenerContainerFactory;
 import javax.jms.ConnectionFactory;
 
 /**
- * <p> Description: </p>
+ * <p> Description: activemq 配置类 </p>
  * <p> Title: ActivemqConfig </p>
  * <p> Create Time: 2019/5/27 17:52 </p>
  *
