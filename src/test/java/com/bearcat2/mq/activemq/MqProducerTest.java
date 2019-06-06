@@ -1,6 +1,6 @@
 package com.bearcat2.mq.activemq;
 
-import com.bearcat2.SpringBootActivemqApplicationTests;
+import com.bearcat2.SpringBootMqApplicationTests;
 import org.apache.activemq.command.ActiveMQQueue;
 import org.apache.activemq.command.ActiveMQTopic;
 import org.junit.Test;
@@ -11,13 +11,13 @@ import javax.jms.JMSException;
 
 /**
  * <p> Description: activemq 生产者测试类 </p>
- * <p> Title: ActivemqProducerTest </p>
+ * <p> Title: MqProducerTest </p>
  * <p> Create Time: 2019/5/8 10:34 </p>
  *
  * @author: zhongzhipeng
  * @version: 1.0
  */
-public class ActivemqProducerTest extends SpringBootActivemqApplicationTests {
+public class MqProducerTest extends SpringBootMqApplicationTests {
 
     @Autowired
     private ActivemqProducer activemqProducer;
